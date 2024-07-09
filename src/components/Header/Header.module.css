@@ -32,12 +32,13 @@
   margin: 0;
   padding: 0 5%;
 }
-.navigation_wrapper,
-.social {
+.navigation_wrapper nav,
+.logo_social {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   gap: 30px;
+  transition: all 0.3s ease;
 }
 .navigation {
   display: flex;
@@ -82,7 +83,10 @@
 .row_title {
   margin-top: 25%;
 }
-
+.navigation_wrapper nav a:hover {
+  color: rgb(238, 35, 35);
+  transition: all 0.3s ease;
+}
 @media (max-width: 768px) {
   .navigation_wrapper,
   .social {

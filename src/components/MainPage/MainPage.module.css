@@ -31,6 +31,12 @@
   justify-content: center;
   align-items: flex-start;
   text-transform: capitalize;
+  transition: all 0.3s ease;
+}
+.content_new,
+.content_build:hover {
+  transition: all 0.3s ease;
+  transform: scale(1.02);
 }
 .content_new {
   background-image: url("../../assets/plaza__bgr.jpg");
@@ -63,10 +69,11 @@
   display: flex;
   align-items: center;
   gap: 25px;
+  padding: 0 2%;
 }
 
 @media (min-width: 768px) {
   .content_new {
-    width: 48%;
+    width: 46%;
   }
 }
