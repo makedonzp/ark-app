@@ -1,0 +1,13 @@
+.footer {
+  padding-bottom: 5%;
+  background-color: rgba(0, 0, 0, 0.881);
+  padding-top: 5%;
+}
+.footer__text {
+  font-size: 10px;
+  line-height: 14px;
+  color: #ffffff;
+}
+.footer__text {
+  text-align: center;
+}
