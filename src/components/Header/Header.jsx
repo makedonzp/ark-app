@@ -9,6 +9,7 @@ import { Link } from "react-router-dom";
 import src__logo_tg from "../../assets/telegram_icon.png";
 import src__logo_watsapp from "../../assets/whatsapp_icon.png";
 import src__logo_viber from "../../assets/viber_icon.png";
+import src__logo_call from "../../assets/call_icon.png";
 
 export default function Header() {
   return (
@@ -78,6 +79,14 @@ export default function Header() {
                   className={styles.logoImg_viber}
                   alt="Viber"
                   itemProp="image"
+                />
+              </Link>
+              <Link to="tel:+7 (495) 000 00 00">
+                <img
+                  className={styles.logoImg_call}
+                  src={src__logo_call}
+                  alt="phone number"
+                  itemProp="telephone"
                 />
               </Link>
             </div>

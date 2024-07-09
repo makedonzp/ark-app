@@ -48,7 +48,8 @@
 }
 .logoImg_tg,
 .logoImg_watsapp,
-.logoImg_viber {
+.logoImg_viber,
+.logoImg_call {
   height: 20px;
   width: 20px;
 }
@@ -89,12 +90,14 @@
 }
 .logoImg_tg,
 .logoImg_watsapp,
-.logoImg_viber {
+.logoImg_viber,
+.logoImg_call {
   transition: all 0.5s ease;
 }
 .logoImg_tg:hover,
 .logoImg_watsapp:hover,
-.logoImg_viber:hover {
+.logoImg_viber:hover,
+.logoImg_call:hover {
   transform: scale(1.5);
   transition: all 0.5s ease;
 }
