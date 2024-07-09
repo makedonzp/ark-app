@@ -24,20 +24,32 @@
   background-color: rgba(0, 0, 0, 0.704);
   padding: 5px 12px;
 }
-.content_new,
+.content_new {
+  min-height: 245px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-transform: capitalize;
+  transition: all 0.7s ease;
+}
 .content_build {
   min-height: 245px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
   text-transform: capitalize;
-  transition: all 0.3s ease;
+  transition: all 0.7s ease;
 }
-.content_new,
+
+.content_new:hover {
+  transform: scale(1.05);
+  transition: all 0.7s ease;
+}
 .content_build:hover {
-  transition: all 0.3s ease;
-  transform: scale(1.02);
+  transform: scale(1.05);
+  transition: all 0.7s ease;
 }
+
 .content_new {
   background-image: url("../../assets/plaza__bgr.jpg");
   background-repeat: no-repeat;

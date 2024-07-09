@@ -87,6 +87,17 @@
   color: rgb(238, 35, 35);
   transition: all 0.3s ease;
 }
+.logoImg_tg,
+.logoImg_watsapp,
+.logoImg_viber {
+  transition: all 0.5s ease;
+}
+.logoImg_tg:hover,
+.logoImg_watsapp:hover,
+.logoImg_viber:hover {
+  transform: scale(1.5);
+  transition: all 0.5s ease;
+}
 @media (max-width: 768px) {
   .navigation_wrapper,
   .social {
