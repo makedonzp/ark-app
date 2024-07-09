@@ -26,8 +26,14 @@
 .content__title {
   color: rgb(255, 255, 255);
   font-weight: 700;
-  background-color: rgba(0, 0, 0, 0.704);
+  background-color: rgba(0, 0, 0, 0.527);
   padding: 5px 12px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
 }
 .content_new {
   min-height: 245px;
@@ -63,6 +69,8 @@
   height: 100%;
   border: solid 3px rgb(255, 255, 255);
   border-radius: 15px;
+  position: relative;
+  overflow: hidden;
 }
 .content_build {
   background-image: url("../../assets/build__bgr.jpg");
@@ -72,6 +80,8 @@
   height: 100%;
   border: solid 3px rgb(255, 255, 255);
   border-radius: 15px;
+  position: relative;
+  overflow: hidden;
 }
 .row_title_section {
   margin-top: 12%;
@@ -79,6 +89,9 @@
 .link_build,
 .link_new {
   text-decoration: none;
+  height: 100%;
+  width: 100%;
+  position: absolute;
 }
 .row_content {
   margin-top: 5%;

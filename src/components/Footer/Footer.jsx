@@ -12,7 +12,7 @@ export default function Footer() {
         <Row>
           <Col sm={12} md={4}>
             <p className={styles.footer__text}>
-              © 2022 ARK. Все права защищены.
+              © 2024 ARK. Все права защищены.
             </p>
           </Col>
           <Col sm={12} md={4}>
